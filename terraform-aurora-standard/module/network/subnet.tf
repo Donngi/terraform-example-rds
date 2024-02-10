@@ -9,14 +9,14 @@ resource "aws_subnet" "private_a" {
   }
 }
 
-resource "aws_subnet" "private_b" {
+resource "aws_subnet" "private_c" {
   vpc_id     = aws_vpc.main.id
   cidr_block = cidrsubnet(aws_vpc.main.cidr_block, 4, 2)
 
-  availability_zone = "ap-northeast-1b"
+  availability_zone = "ap-northeast-1c"
 
   tags = {
-    Name = "example-aurora-private-b"
+    Name = "example-aurora-private-c"
   }
 }
 

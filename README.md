@@ -3,17 +3,12 @@ Minimum example of Amazon RDS.
 
 ⚠️ Under constructions
 
-## Aurora
+## 🚀 Aurora
 ### Standard usage
 ![Aurora standard](./doc/architecture-aurora-standard.drawio.svg)
 
 - Single region
 - Some read replicas (up to 15)
-
-### Multi-Master Cluster
-
-- Single region
-- Up to 4 read/write instances
 
 ### Global database
 ![Aurora global database](./doc/architecture-aurora-global-database.drawio.svg)
@@ -21,7 +16,7 @@ Minimum example of Amazon RDS.
 - Multi region
 - Global read replicas (up to 5)
 
-## RDS other than Aurora
+## 🚀 RDS other than Aurora
 ### Multi AZ + Read replicas
 ![RDS Multi AZ + Read replicas](./doc/architecture-rds-multi-za-read-replica.drawio.svg)
 

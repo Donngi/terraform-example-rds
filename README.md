@@ -4,8 +4,8 @@ Minimum example of Amazon RDS.
 ⚠️ Under constructions
 
 ## 🚀 Aurora
-### Standard usage
-![Aurora standard](./doc/architecture-aurora-standard.drawio.svg)
+### Provisioned instance
+![Aurora provisioned](./doc/architecture-aurora-provisioned.drawio.svg)
 
 - Single region
 - Some read replicas (up to 15)

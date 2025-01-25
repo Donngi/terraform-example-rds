@@ -27,7 +27,3 @@ resource "aws_rds_cluster_instance" "aurora" {
   # performance_insights_enabled          = true
   # performance_insights_retention_period = 7
 }
-
-
-
-

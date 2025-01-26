@@ -12,7 +12,9 @@ resource "aws_rds_cluster" "aurora" {
 
   storage_type = "" # 空文字がスタンダードストレージ
 
-  db_subnet_group_name = aws_db_subnet_group.sample.name
+  # network
+  db_subnet_group_name   = aws_db_subnet_group.sample.name
+  vpc_security_group_ids = [aws_security_group.cluster.id]
 
   # encryption
   storage_encrypted = true

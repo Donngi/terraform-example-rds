@@ -3,6 +3,7 @@ provider "aws" {
   default_tags {
     tags = {
       repository = "terraform-example-rds"
+      env        = "terraform-aurora-serverless-v2.example"
     }
   }
 }

@@ -10,6 +10,12 @@ Minimum example of Amazon RDS.
 - Single region
 - Some read replicas (up to 15)
 
+### Serverless v2
+![Aurora serverless v2](./doc/architecture-aurora-serverless-v2.drawio.svg)
+
+- Single region
+- A combination of serverless and provisioned options is also available
+
 ### Global database
 ![Aurora global database](./doc/architecture-aurora-global-database.drawio.svg)
 
